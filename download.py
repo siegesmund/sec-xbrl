@@ -1,9 +1,6 @@
 from loadSECfilings import SECdownload
 
-years = range(2010, 2015)
-months = range(1,13)
-
 def download():
-    for year in years:
-        for month in months:
+    for year in range(2012, 2015):
+        for month in range(1, 13):
             SECdownload(2014, 10)
